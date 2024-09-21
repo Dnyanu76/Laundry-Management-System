@@ -1,0 +1,85 @@
+/* CSS for the customer orders page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.order-list {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.order-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.order-table td {
+    color: #555;
+}
+
+.order-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Highlighting rows based on status */
+.not-washed {
+    background-color: #ffebeb; /* Light red */
+}
+
+.washed {
+    background-color: #e8ffeb; /* Light green */
+}
+
+.received {
+    background-color: #ebe8ff; /* Light blue */
+}
+
+/* Styling the 'Back to Home' link */
+a {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+/* Hover effects for rows */
+.order-table tr:hover {
+    background-color: #ddd;
+}

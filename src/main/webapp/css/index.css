@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    background-color: #f4f4f9; /* Light background */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Heading Style */
+h2 {
+    text-align: center;
+    color: #333; /* Darker text for better contrast */
+    margin-bottom: 20px;
+}
+
+/* Form Element Styles */
+label {
+    font-weight: bold;
+    color: #555; /* Slightly lighter than the heading */
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border-color: #6c63ff; /* Change border color on focus */
+}
+
+/* Submit Button Style */
+input[type="submit"] {
+    background-color: #6c63ff; /* Stylish purple color */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+input[type="submit"]:hover {
+    background-color: #5a52e0; /* Darker purple on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Error Message Styles */
+.error-message {
+    color: #ff4d4d; /* Bright red for errors */
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+    border: 1px solid #ff4d4d; /* Border around error message */
+    background-color: #ffe6e6; /* Light red background */
+    padding: 10px;
+    border-radius: 5px;
+}
